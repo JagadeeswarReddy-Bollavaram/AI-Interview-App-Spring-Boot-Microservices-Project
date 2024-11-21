@@ -13,7 +13,10 @@ Interview Service: Handles interview session data, including tracking, managing,
 Microservices Architecture: Built with Spring Boot, with modules for user management and interview management.
 
 
-├── eureka-server # Service Registry ├── gateway # API Gateway for routing ├── user-service # Handles user authentication and registration ├── interview-service # Manages interview sessions and user-related data
+├── eureka-server # Service Registry 
+├── gateway # API Gateway for routing 
+├── user-service # Handles user authentication and registration 
+├── interview-service # Manages interview sessions and user-related data
 
 
 ## Setup and Configuration
@@ -87,7 +90,7 @@ eureka.client.registerWithEureka=true
 eureka.instance.hostname=localhost
 
 ```
-##Service Details and Endpoints
+## Service Details and Endpoints
 
 ### Endpoints
 
@@ -136,8 +139,11 @@ cd interview-service
 mvn spring-boot:run
 
 ```
-##Future Enhancements
+## Future Enhancements
 - Add API documentation using Swagger.
 - Implement role-based access control.
 - Introduce monitoring and logging using Spring Boot Actuator and ELK Stack.
 - Containerize the application using Docker.
+
+## Contact
+[LinkedIn Profile](https://www.linkedin.com/in/jagadeeswarreddy/)
